@@ -8,7 +8,7 @@ This tutorial will break down a regex (regular expression) that finds all emails
 In each section below, you will be able to see different parts of a regex. Each part in the algorithim has a specific role in allowing a user to locate all emails in a text. 
 
 We will be evaluating and analyzing the following Regex algorithim:
-/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
