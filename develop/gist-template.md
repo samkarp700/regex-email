@@ -1,10 +1,14 @@
-# Title (replace with your title)
+# Matching an Email
 
-Introductory paragraph (replace this with your text)
+This tutorial will break down a regex (regular expression) that finds all emails in a text. 
+
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In each section below, you will be able to see different parts of a regex. Each part in the algorithim has a specific role in allowing a user to locate all emails in a text. 
+
+We will be evaluating and analyzing the following Regex algorithim:
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
 ## Table of Contents
 
